@@ -11,7 +11,7 @@ def location_for(place)
 end
 
 gem "beaker-hostgenerator", '~> 3.3'
-gem 'vanagon', *location_for(ENV['VANAGON_LOCATION'] || 'https://github.com/openvoxproject/vanagon#main')
+gem 'vanagon', github: 'openvoxproject/vanagon', branch: 'main'
 gem 'packaging', *location_for(ENV['PACKAGING_LOCATION'] || '~> 0.105')
 gem 'json'
 gem 'rake'

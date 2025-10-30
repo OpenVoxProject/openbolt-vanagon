@@ -27,6 +27,8 @@ jobs:
         run: |
           bundle exec rake config:environment_variables
           bundle exec rake config:print
+      - name: EL9 test build
+        run: bundle exec build openbolt el-9-x86_64
 
   tests:
     if: always()
