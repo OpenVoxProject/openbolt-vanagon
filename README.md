@@ -1,3 +1,4 @@
+## With [this PR](https://github.com/OpenVoxProject/openbolt/pull/156), this repo is now incorporated into the [OpenBolt](https://github.com/OpenVoxProject/openbolt) repo directly.
 # Bolt Vanagon Project
 
 This project uses [vanagon](https://github.com/puppetlabs/vanagon) to generate
