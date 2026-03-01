@@ -1,4 +1,4 @@
-project "puppet-bolt" do |proj|
+project "openbolt" do |proj|
   proj.license "See components"
   proj.vendor "Puppet, Inc.  <info@puppet.com>"
   proj.homepage "https://www.puppet.com"
